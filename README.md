@@ -10,20 +10,22 @@ Then for the Authorisation follow the "Challenge/Response" guide on the iZotope 
 ## Authorise plist
 Once authorised open the following folder:
 
-```~/Library/Preferences/```
+~/Library/Preferences/
 
 Inside you'll find the following plist files:
 
-```com.izotope.audioplugins.Authorizations.plist```
-```com.izotope.audioplugins.Ozone6.Authorizations.plist```
-```com.izotope.audioplugins.Ozone6App.Authorizations.plist```
+```
+com.izotope.audioplugins.Authorizations.plist
+com.izotope.audioplugins.Ozone6.Authorizations.plist
+com.izotope.audioplugins.Ozone6App.Authorizations.plist
+```
 
 These need to be copied into:
 
-```/Library/Preferences/```
+/Library/Preferences/
 
 Once copied run the fixpermissions.sh to change the permission to allow everyone Read-Only access.
 
 
 ## Finished
-Now anyone logging on can use Ozone.
+Ozone is now authorised for all users.
